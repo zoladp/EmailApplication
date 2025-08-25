@@ -55,11 +55,17 @@ email-application/
 6. ```mvn exec:java -Dexec.mainClass="com.company.emailapp.EmailApp"```
 
 ## Example Output
-New worker: John Smith  
-Department: Development  
-Generated Email: ```john.smith@development.company.com```   
-Temporary password: Xh7#Pz92!   
-Mailbox capacity: 500mb 
+New worker: John. DEPARTMENT CODES:
+1 for Sales
+2 for Development
+3 for Accounting
+0 for none
+Enter the department code: 0
+DISPLAY NAME: John Smith
+COMPANY EMAIL: john.smith@aeycompany.com
+COMPANY EMAIL PASSWORD: 	pWS6&0D&#J@&#q&YZCa4
+LOWER CASE PASSWORD: 		pws6&0d&#j@&#q&yzca4
+MAILBOX CAPACITY: 500mb
 
 ##Possible Extensions
 Add more departments    
